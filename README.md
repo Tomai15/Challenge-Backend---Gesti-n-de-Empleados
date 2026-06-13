@@ -52,4 +52,5 @@ docker compose exec web pytest empleados/pruebas/
 
 ## Variables de entorno
 
-En este caso dentro del docker compose estan declaradas las variables de entorno a usar, pero en caso de ejecutar local se debe copiar el .envExample y añadiralas ahi
+Por fines practicos dentro del docker compose y en el settings de django estan declaradas las variables de entorno a usar, pero en caso de ejecutar local se debe copiar el .env.example, generar un .env y añadirlas ahi.
+En un entorno de produccion real deberian estar directamente en el .env o gestionarse con algun secret manager
