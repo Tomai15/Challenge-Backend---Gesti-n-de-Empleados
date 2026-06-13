@@ -52,4 +52,4 @@ docker compose exec web pytest empleados/pruebas/
 
 ## Variables de entorno
 
-Copiar `.env.example` como `.env` y completar los valores antes de levantar sin Docker.
+En este caso dentro del docker compose estan declaradas las variables de entorno a usar, pero en caso de ejecutar local se debe copiar el .envExample y añadiralas ahi
